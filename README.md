@@ -107,12 +107,12 @@ Although on a declining trend, many Entertainment, Action, and Simulation genre 
 - Age Rating had little influence on a games success
 
 ## Contributions:
-Data Cleaning and preparation: Joy
-EDA & Visualization: Joy & Olery
-Regression: Joelle
-Decision Tree: Olery
-Random Forest: Joelle
-GitHub ReadMe: Olery
+- Data Cleaning and preparation: Joy
+- EDA & Visualization: Joy & Olery
+- Regression: Joelle
+- Decision Tree: Olery
+- Random Forest: Joelle
+- GitHub ReadMe: Olery
 
 
 ## References
