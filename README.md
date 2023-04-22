@@ -22,20 +22,20 @@ Overview of data preparation:
         - “Games” was included in all the rows
         - The variable is in a string format
         
-        Solution:
+        Fix:
         - Remove the word “Games,” at the start of the string
         - Split the string using “,” and Create a new column “GenresList” to store the genres in as a list
 - Language Problem:
         - The variable is in a string format
         
-        Solution:
+        Fix:
         - Split the string using “,” and 
         - Create a new column “LanguagesList” to store the languages in as a list
 - Original Release Date & Current Version Release Date Problem:
                                                       - The date is in string format
                                                       - The date uses “/” but Jupyter only recognised date by “-”
                                                       
-                                                      Solution:
+                                                      Fix:
                                                       - Replace the “/” for “-”
                                                       - Change the date from string to date time
                                                       
