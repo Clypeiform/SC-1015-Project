@@ -10,13 +10,13 @@ Dataset Used:
 - We utilised the 17k Strategy Games dataset which was found on Kaggle: https://www.kaggle.com/datasets/tristan581/17k-apple-app-store-strategy-games
 - The dataset included all games classified under the Strategy Genre within the Apple App Store
 
-Overview of data cleaning:
+*Overview of data cleaning:*
 - As the dataset itself contained certain variables which we found irrelevant to our project, we cleaned it by removing them, namely URL ; ID ; Subtitle ; Icon URL ; Description ; Size ; Primary Genre
 - We created a new binary variable, which we determined whether an app was succesful
 - The criteria for deciding whether an app was succesful was based on an app having a minimum of 4000 user ratings, and a minimum average user rating of 4
 - The successful games were then extracted into a new dataframe
 
-Overview of data preparation:
+*Overview of data preparation:*
 - We altered 3 variables, genre, languages, and Original Release Date & Current Version Release Date
 - Genre Problem:
         - “Games” was included in all the rows
@@ -35,11 +35,11 @@ Overview of data preparation:
                                                       - The date is in string format
                                                       - The date uses “/” but Jupyter only recognised date by “-”
                                                       
-                                                      Fix:
-                                                      - Replace the “/” for “-”
-                                                      - Change the date from string to date time
+         Fix:
+        - Replace the “/” for “-”
+        - Change the date from string to date time
                                                       
-Exploratory Data Analysis                                                      
+*Exploratory Data Analysis*                                                    
                                  
 
 
