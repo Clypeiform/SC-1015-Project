@@ -32,8 +32,8 @@
         - Split the string using “,” and 
         - Create a new column “LanguagesList” to store the languages in as a list
 ### - Original Release Date & Current Version Release Date Problem:
-                                                      - The date is in string format
-                                                      - The date uses “/” but Jupyter only recognised date by “-”
+        - The date is in string format
+        - The date uses “/” but Jupyter only recognised date by “-”
                                                       
          Fix:
         - Replace the “/” for “-”
