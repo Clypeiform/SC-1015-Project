@@ -1,4 +1,4 @@
-# SC-1015-Project: AniFame Succesful Apps
+# SC-1015-Project: Gaming Succesful Apps
 
 ## Our Motivation:
 - Mobile Games are currently increasing in popularity, experiencing a 3.5% increase in installments from November 2020 to October 2021 (SensorTower,2021)
